@@ -12,7 +12,7 @@ export default function HomePage() {
 
     return (
         <>
-            <DisableInspect />
+            {/* <DisableInspect /> */}
             <main className="flex flex-col lg:flex-row lg:max-h-screen bg-gray-50">
 
                 <LeftPanel />
